@@ -1,34 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Sanity, NextJs project
 
-## Getting Started
+Run Sanity: sanity start:
+http://localhost:3333/desk
 
-First, run the development server:
+[Setup]
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. install next
+2. add sanity project (already installed globally)
+3. In sanity backend add user, postedBY,comment & post schema files
+4. import all the above schemas into scheam.js
+5. In terminal run 'sanity start' and add first video post
+6. Add dependencies in package.json and run 'npm install --legacy-peer-deps'
+7. In another terminal run 'npm dev' to compile next
+8. Clean up boilerplate in pages/api/index.tsx
+9. remove Home.module.css and add remove globals.css and replace with tailwind stlyes
+10. install tailwind: https://tailwindcss.com/docs/guides/nextjs
+11. Add code to tailwind.config.js and style to <h1> in index.tsx. (install PostCSS Language Support, extension) to remove warnings
+12. test in browser that tailwind styles are being applied
+13. in \_app.tsx setup initial state and useEffect to test app is configured - (see comments)
+14. add further code along with tailwind in \_app.tsx to import our future Navbar, Sidebar components
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+UP 30.22 in video
+https://www.youtube.com/watch?v=CcBHZ0t2Qwc&ab_channel=JavaScriptMastery
